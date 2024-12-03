@@ -1,0 +1,1299 @@
+text,sentiment,sentiment_label
+ресторане,neutral,0.0
+ресторанах,neutral,0.0
+ресторане,neutral,0.0
+ресторан,neutral,0.0
+ресторане,neutral,0.0
+ресторан,positive,1.0
+Руководству,positive,1.0
+ресторане,neutral,0.0
+руководству ресторана,positive,1.0
+ресторана,positive,1.0
+заведение,neutral,0.0
+ресторане,neutral,0.0
+заведения,neutral,0.0
+место,positive,1.0
+"ресторана ""Крапива""",neutral,0.0
+рестораном,positive,1.0
+ресторан,positive,1.0
+заведение,positive,1.0
+"""Крапивы""",positive,1.0
+кафе,neutral,0.0
+место,positive,1.0
+заведении,neutral,0.0
+ресторанах,positive,1.0
+ресторан,negative,-1.0
+пабе,positive,1.0
+место,positive,1.0
+пабе,neutral,0.0
+заведений,neutral,0.0
+ресторан,positive,1.0
+ресторанчик,positive,1.0
+"""Квартиру №55""",positive,1.0
+ресторане,neutral,0.0
+квартиру,positive,1.0
+ресторана,positive,1.0
+Суп-вино,neutral,0.0
+ресторанах,neutral,0.0
+заведение,neutral,0.0
+заведение,positive,1.0
+заведении,negative,-1.0
+заведением,positive,1.0
+места,neutral,0.0
+рестораны,neutral,0.0
+ресторан,neutral,0.0
+ресторанах,neutral,0.0
+заведению,neutral,0.0
+придем еще,positive,1.0
+ресторанах,neutral,0.0
+ресторан,neutral,0.0
+заведении,neutral,0.0
+Заведение,positive,1.0
+заведении,negative,-1.0
+больше не пойду,negative,-1.0
+места,positive,1.0
+заведение,positive,1.0
+Макарену,positive,1.0
+вечер,positive,1.0
+Ресторан,neutral,0.0
+заведении,positive,1.0
+заведениях,negative,-1.0
+кафе,positive,1.0
+кафе,positive,1.0
+прийти еще не раз,positive,1.0
+место,positive,1.0
+ресторане,neutral,0.0
+остались очень довольны,positive,1.0
+ресторанчик,neutral,0.0
+заведения,positive,1.0
+сетевых заведений японской кухни,negative,-1.0
+ресторанов,neutral,0.0
+ресторане,neutral,0.0
+провели время,positive,1.0
+заведении,neutral,0.0
+кафе,neutral,0.0
+ресторана,neutral,0.0
+Больше не пойдем,negative,-1.0
+ресторан,neutral,0.0
+ресторане,neutral,0.0
+ресторан,neutral,0.0
+местах,neutral,0.0
+ресторана,neutral,0.0
+"ресторане ""На горке""",neutral,0.0
+ресторан,positive,1.0
+Фартуке,neutral,0.0
+место,neutral,0.0
+ресторан,neutral,0.0
+ресторане,positive,1.0
+"ресторане ""КЭТ""",neutral,0.0
+ресторан,positive,1.0
+"ресторане ""КЭТ""",positive,1.0
+ресторан,positive,1.0
+"ресторане ""Фаворит""",neutral,0.0
+места,neutral,0.0
+ресторане,neutral,0.0
+ресторан,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+Ресторан,neutral,0.0
+ресторане,neutral,0.0
+место,positive,1.0
+ресторан,positive,1.0
+впечатления от посещения,positive,1.0
+место,positive,1.0
+Ресторан,neutral,0.0
+заведение,positive,1.0
+ресторане,neutral,0.0
+Впечатление осталось,positive,1.0
+ресторана,neutral,0.0
+ресторане,positive,1.0
+ресторан,positive,1.0
+место,positive,1.0
+"ресторана ""Кабинет-портрет""",positive,1.0
+заведению,neutral,0.0
+впечатления,positive,1.0
+заведение,positive,1.0
+кафе,positive,1.0
+заведение,positive,1.0
+кафе,positive,1.0
+Кафе,neutral,0.0
+ресторанах Мама Рома,neutral,0.0
+"""аппетит""",neutral,0.0
+ресторан,neutral,0.0
+место,positive,1.0
+заведению,positive,1.0
+обязательно придем,positive,1.0
+ресторанов,positive,1.0
+стейк-хаусах,negative,-1.0
+кафе,negative,-1.0
+заведении,positive,1.0
+заведения,neutral,0.0
+заведению,neutral,0.0
+ресторане,neutral,0.0
+ресторана,neutral,0.0
+заведению,positive,1.0
+ресторан Марчеллис,neutral,0.0
+заведении,positive,1.0
+Марчеллисе,positive,1.0
+ресторане,positive,1.0
+китайским ресторанчикам,neutral,0.0
+Дачу,neutral,0.0
+вечер прошел,positive,1.0
+заведение,positive,1.0
+место,positive,1.0
+рестораны,neutral,0.0
+место,positive,1.0
+место,positive,1.0
+ресторане,neutral,0.0
+Ресторан,positive,1.0
+заведение,positive,1.0
+АМАРЕНА,neutral,0.0
+ресторане,neutral,0.0
+ресторан,positive,1.0
+удобно расположен,positive,1.0
+Заведение,positive,1.0
+местечко,positive,1.0
+кафе-барах,neutral,0.0
+ресторан,neutral,0.0
+паб,positive,1.0
+место,positive,1.0
+заведении,neutral,0.0
+"""радио""",positive,1.0
+заведение,neutral,0.0
+ресторан итальянской кухни,positive,1.0
+место,positive,1.0
+заведении,neutral,0.0
+посещений,positive,1.0
+заведение,negative,-1.0
+места,positive,1.0
+Глобуса,negative,-1.0
+кафе Dolce Italy,neutral,0.0
+кафе,neutral,0.0
+ресторане,neutral,0.0
+рестораном Italy,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+ресторан,neutral,0.0
+Моджо,positive,1.0
+местом,positive,1.0
+ресторане,neutral,0.0
+ресторане,negative,-1.0
+ресторан,negative,-1.0
+администрации,negative,-1.0
+ресторан,neutral,0.0
+ресторан,positive,1.0
+ресторане,neutral,0.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+ресторанах,neutral,0.0
+Ресторан,positive,1.0
+ресторан,neutral,0.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+заведению,negative,-1.0
+Ресторан,positive,1.0
+ресторане,neutral,0.0
+ресторанах,negative,-1.0
+ресторане,neutral,0.0
+ресторан,neutral,0.0
+"""ТБИЛИСО""",positive,1.0
+заведения,positive,1.0
+мест,positive,1.0
+сети ресторанов,neutral,0.0
+ресторанах,neutral,0.0
+ресторан,positive,1.0
+ресторан,neutral,0.0
+заведение,negative,-1.0
+больше не пойдем,negative,-1.0
+ресторане,neutral,0.0
+Зайдем еще,positive,1.0
+ресторане,neutral,0.0
+кафе,positive,1.0
+кафе,positive,1.0
+заведение,positive,1.0
+Санторини,neutral,0.0
+ресторан,neutral,0.0
+Санторини,positive,1.0
+ресторан,positive,1.0
+ресторанов,positive,1.0
+"""BELLINI""",positive,1.0
+ресторане,neutral,0.0
+Ресторан,neutral,0.0
+ресторане,neutral,0.0
+заведение,neutral,0.0
+мест,positive,1.0
+кафе,positive,1.0
+кафе,positive,1.0
+ресторан,neutral,0.0
+место,positive,1.0
+ресторан,neutral,0.0
+паулайнере,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+заполненным на 70% в такой день,positive,1.0
+ресторанов,neutral,0.0
+ресторане,neutral,0.0
+ресторане,neutral,0.0
+ресторане,positive,1.0
+ресторан,positive,1.0
+ресторан,neutral,0.0
+ресторан,neutral,0.0
+Ресторан,positive,1.0
+ресторане Пури,neutral,0.0
+Место,positive,1.0
+заведения,neutral,0.0
+ресторане,neutral,0.0
+ресторане,positive,1.0
+Место,positive,1.0
+пабах,neutral,0.0
+ресторан,neutral,0.0
+ресторан,neutral,0.0
+ресторане,neutral,0.0
+заведение,positive,1.0
+ресторан,neutral,0.0
+ресторане,positive,1.0
+ресторане,neutral,0.0
+рестораном,neutral,0.0
+отдохнули,positive,1.0
+ресторана,positive,1.0
+ресторанчик,positive,1.0
+заведений,neutral,0.0
+места,positive,1.0
+Дачи,neutral,0.0
+ресторана,neutral,0.0
+ресторана,positive,1.0
+место,positive,1.0
+заведении,neutral,0.0
+длинный хвост,negative,-1.0
+заведения,neutral,0.0
+ресторане,positive,1.0
+заведения,positive,1.0
+заведение,positive,1.0
+заведение,positive,1.0
+ресторане,neutral,0.0
+китайский ресторан,positive,1.0
+ресторане,neutral,0.0
+кафе,positive,1.0
+заведение,positive,1.0
+место,positive,1.0
+паб,positive,1.0
+паб,positive,1.0
+заведения,positive,1.0
+ресторане,neutral,0.0
+ресторан,neutral,0.0
+провели время,positive,1.0
+заведения,neutral,0.0
+ресторан,neutral,0.0
+место,positive,1.0
+ресторан,neutral,0.0
+кафешка,neutral,0.0
+место,positive,1.0
+заведения,positive,1.0
+заведение,positive,1.0
+заведение,neutral,0.0
+место,positive,1.0
+место,positive,1.0
+место,positive,1.0
+ресторана,negative,-1.0
+ресторан,neutral,0.0
+заведение,negative,-1.0
+место,negative,-1.0
+заведения,negative,-1.0
+заведении,negative,-1.0
+место,neutral,0.0
+заведении,neutral,0.0
+заведении,neutral,0.0
+место,positive,1.0
+заведение,positive,1.0
+ресторана,negative,-1.0
+паба,negative,-1.0
+место,positive,1.0
+ресторан,neutral,0.0
+"кафе ""Кон-Коронель",neutral,0.0
+месте,positive,1.0
+ресторану,positive,1.0
+выбора места,neutral,0.0
+Кон-Коронель,positive,1.0
+Санам,neutral,0.0
+место,positive,1.0
+место,positive,1.0
+пивном ресторане,neutral,0.0
+ЗАВЕДЕНИЯ,positive,1.0
+заведения,positive,1.0
+ресторане,neutral,0.0
+месте,positive,1.0
+заведении,negative,-1.0
+ресторана,negative,-1.0
+ресторан,neutral,0.0
+"""Мидзуки""",positive,1.0
+место,positive,1.0
+ресторана,neutral,0.0
+вечер,positive,1.0
+ресторане,neutral,0.0
+Da Albertone,positive,1.0
+место,positive,1.0
+место,positive,1.0
+заведение,neutral,0.0
+"""Чердак Художника""",positive,1.0
+местом,positive,1.0
+ресторана,neutral,0.0
+ресторанов,positive,1.0
+рестораном,neutral,0.0
+пивном баре,positive,1.0
+Гроссенштрассе,positive,1.0
+рестораны,neutral,0.0
+кафе,positive,1.0
+место,positive,1.0
+"кафе ""White-Rabbit""",positive,1.0
+место,positive,1.0
+ресторанчик,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+ресторану,positive,1.0
+Заведение,positive,1.0
+пабах,neutral,0.0
+заведение,positive,1.0
+Дугласе,neutral,0.0
+заведении,positive,1.0
+ресторана,positive,1.0
+бара,positive,1.0
+вечер,positive,1.0
+заведение,positive,1.0
+ресторан,positive,1.0
+"ресторане ""Любимый""",neutral,0.0
+ресторан,negative,-1.0
+рестораны,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+ресторан,neutral,0.0
+место,positive,1.0
+заведение,positive,1.0
+ресторане Анданте,neutral,0.0
+ресторана,neutral,0.0
+ресторана,positive,1.0
+ресторан,positive,1.0
+ресторане,positive,1.0
+ресторан,neutral,0.0
+заведении,positive,1.0
+заведение,positive,1.0
+заведение,positive,1.0
+Манилов,neutral,0.0
+заведение,neutral,0.0
+Tefsi,neutral,0.0
+ресторане,negative,-1.0
+заведения,negative,-1.0
+"""ресторане""",neutral,0.0
+заведению,neutral,0.0
+вечер,negative,-1.0
+месте,neutral,0.0
+ресторан,negative,-1.0
+больше ни ногой,negative,-1.0
+ресторанчик,neutral,0.0
+Ресторану,positive,1.0
+кафе,negative,-1.0
+заведения,negative,-1.0
+ресторанов китайской кухни,neutral,0.0
+Тан Жен,positive,1.0
+место,positive,1.0
+заведения,positive,1.0
+ресторанов,positive,1.0
+заведение,neutral,0.0
+заведении,positive,1.0
+"""Небо""",neutral,0.0
+ресторан,positive,1.0
+ресторане,positive,1.0
+ресторан,negative,-1.0
+место,negative,-1.0
+место,positive,1.0
+заведениях,negative,-1.0
+заведениях,negative,-1.0
+место,positive,1.0
+рестораны,neutral,0.0
+заведении,negative,-1.0
+обязательно придем,positive,1.0
+Ресттауна,neutral,0.0
+"ресторане ""Венеция""",neutral,0.0
+ресторан,neutral,0.0
+ресторан,positive,1.0
+местечке,positive,1.0
+ресторане,positive,1.0
+Чаплин-холл,neutral,0.0
+Заведение,positive,1.0
+ресторан,neutral,0.0
+месте,positive,1.0
+Место,positive,1.0
+столовой,positive,1.0
+туда идти не хочется,negative,-1.0
+ресторанах,negative,-1.0
+кафе,positive,1.0
+местечко,positive,1.0
+ресторан,neutral,0.0
+место,neutral,0.0
+ресторанами,positive,1.0
+ресторан,neutral,0.0
+ресторан,positive,1.0
+кондитерская,neutral,0.0
+местечко,positive,1.0
+ресторане,neutral,0.0
+ресторана,negative,-1.0
+ресторан,positive,1.0
+ресторанчик,negative,-1.0
+заведения,positive,1.0
+ресторана,neutral,0.0
+ресторана,neutral,0.0
+Капоне,positive,1.0
+ресторан,positive,1.0
+ресторане,neutral,0.0
+ресторан,neutral,0.0
+забегаловке,negative,-1.0
+ресторане,negative,-1.0
+ресторан,positive,1.0
+ресторане,positive,1.0
+ресторане,neutral,0.0
+место,positive,1.0
+заведение,positive,1.0
+ресторан,positive,1.0
+Ресторан,positive,1.0
+заведение,positive,1.0
+заведении,negative,-1.0
+желания приходить не было ни у кого,negative,-1.0
+заведение,positive,1.0
+ЗАВЕДЕНИЯ,negative,-1.0
+больше туда не пойдём,negative,-1.0
+нет желания заходить сюда,negative,-1.0
+ресторан,negative,-1.0
+ресторан 'Хутор Водограй',neutral,0.0
+рестораном,negative,-1.0
+ресторан,positive,1.0
+месте,negative,-1.0
+ресторанчике,negative,-1.0
+место,negative,-1.0
+заведений,negative,-1.0
+заведение,positive,1.0
+место,positive,1.0
+рекомендовать никому не буду,negative,-1.0
+ресторане Волна,neutral,0.0
+ресторан МИСО,positive,1.0
+заведение,negative,-1.0
+ресторане,neutral,0.0
+ресторане,positive,1.0
+заведения,positive,1.0
+место,positive,1.0
+заведение,positive,1.0
+ресторан,positive,1.0
+отдохнули,positive,1.0
+заведение,negative,-1.0
+Бадене,neutral,0.0
+место,positive,1.0
+ресторан,neutral,0.0
+ресторан,positive,1.0
+ресторане,positive,1.0
+организацию,positive,1.0
+работе,positive,1.0
+"""Сытинъ""",positive,1.0
+праздник,positive,1.0
+ресторане «Кирочный Двор»,neutral,0.0
+сотрудникам данного заведения,positive,1.0
+Банкетный зал,neutral,0.0
+ресторане,neutral,0.0
+Le Glamure,positive,1.0
+ресторан,positive,1.0
+место,positive,1.0
+Террасу,neutral,0.0
+Терраса,positive,1.0
+мест,positive,1.0
+заведение,positive,1.0
+ресторане Duplex,neutral,0.0
+ресторан,neutral,0.0
+ресторан,neutral,0.0
+ресторан,neutral,0.0
+Duplex,positive,1.0
+ресторане,neutral,0.0
+место,negative,-1.0
+придем к Вам еще,positive,1.0
+Паберти,neutral,0.0
+заведении,positive,1.0
+кафе,positive,1.0
+место,positive,1.0
+Mon Petit Cafe,positive,1.0
+"ресторане ""Небо""",neutral,0.0
+провели время,positive,1.0
+ресторану Браво-Лаудес,positive,1.0
+владельцу Майклу,positive,1.0
+ресторан,positive,1.0
+место,positive,1.0
+ресторан,positive,1.0
+местечко,neutral,0.0
+место,positive,1.0
+Амадеусе,neutral,0.0
+ресторану,positive,1.0
+ресторане,neutral,0.0
+кафе,neutral,0.0
+кафе,positive,1.0
+только тебя там и ждали,positive,1.0
+кафе,positive,1.0
+посещения,positive,1.0
+Придем еще,positive,1.0
+ресторан,negative,-1.0
+ресторан,positive,1.0
+отдохнули,positive,1.0
+ресторан,positive,1.0
+заведение,positive,1.0
+заведения,positive,1.0
+ресторан,positive,1.0
+кафе,positive,1.0
+заведение,neutral,0.0
+Жан-Жаке,neutral,0.0
+Невский 166,neutral,0.0
+Марата,neutral,0.0
+визитом,positive,1.0
+пабе,positive,1.0
+ресторане,neutral,0.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+ресторан,positive,1.0
+ресторане,neutral,0.0
+провести время,positive,1.0
+заведение,positive,1.0
+рекомендую посетить,positive,1.0
+ресторан,positive,1.0
+автомобиль,neutral,0.0
+Авто,positive,1.0
+автомобили,positive,1.0
+российского автомбиля,negative,-1.0
+Ауди,positive,1.0
+машину,neutral,0.0
+иномарка,positive,1.0
+приора,negative,-1.0
+иномарку,negative,-1.0
+Amulet,neutral,0.0
+Logan,positive,1.0
+автомобиль,positive,1.0
+автомобиля ваз 21144,neutral,0.0
+Российский автопром,negative,-1.0
+Опель Астра,neutral,0.0
+автомобиль,negative,-1.0
+автомобиль,neutral,0.0
+машинка,positive,1.0
+автомобиль ЗАЗ Chance,neutral,0.0
+автомобилей,neutral,0.0
+Не продаваемая машина,negative,-1.0
+автомобиль skoda octavia a7,neutral,0.0
+машину,neutral,0.0
+Машина,positive,1.0
+автомобиль,positive,1.0
+автомобиль Great Wall Hover H5,neutral,0.0
+китайского автомобиля,neutral,0.0
+ховеры,neutral,0.0
+автомобиля,positive,1.0
+Машинка,positive,1.0
+автомобиле,positive,1.0
+машиу,positive,1.0
+авто,neutral,0.0
+авто,neutral,0.0
+автомобиль,positive,1.0
+авто,positive,1.0
+авто,neutral,0.0
+автомобиле Рено Логан,neutral,0.0
+альтернативой Жигулям,positive,1.0
+авто,neutral,0.0
+БУ автомобиля,negative,-1.0
+модель,neutral,0.0
+авто,negative,-1.0
+Альтернатива Жигулям,neutral,0.0
+Машина,positive,1.0
+в своем классе,positive,1.0
+машины,negative,-1.0
+машина,positive,1.0
+машинка,positive,1.0
+модель ваза,neutral,0.0
+ваз 2109,neutral,0.0
+модель,neutral,0.0
+авто,positive,1.0
+авто,positive,1.0
+тазиками,negative,-1.0
+минивэне Dodge Caravan,neutral,0.0
+Доджик,neutral,0.0
+Машина,positive,1.0
+машина,positive,1.0
+Фиат,positive,1.0
+ВАЗовской восьмерки,neutral,0.0
+Городской автомобиль,neutral,0.0
+автомобиль,positive,1.0
+автомобиле,neutral,0.0
+машине,negative,-1.0
+Хонда Фит,positive,1.0
+Фита,positive,1.0
+Кольтом,negative,-1.0
+машинка,positive,1.0
+машину,neutral,0.0
+машина,positive,1.0
+машина,positive,1.0
+автомобиль,neutral,0.0
+автомобиль,neutral,0.0
+ладами российского производства,negative,-1.0
+машина,neutral,0.0
+семейный автомобиль,positive,1.0
+служебной машины,neutral,0.0
+машина Lada 219220 Kalina,neutral,0.0
+машина,neutral,0.0
+модель лады,neutral,0.0
+машина,neutral,0.0
+"""четверка""",neutral,0.0
+Автомобиль,negative,-1.0
+автомобиль,positive,1.0
+авто,positive,1.0
+Автомобиль,neutral,0.0
+пикапах,neutral,0.0
+машины,neutral,0.0
+машина Jetta,neutral,0.0
+автомобиль,positive,1.0
+автомобиле,neutral,0.0
+машинка,positive,1.0
+отечественный автопром,negative,-1.0
+аппарата,positive,1.0
+автомобиль,neutral,0.0
+рабочая лошадка,neutral,0.0
+машине,neutral,0.0
+"машины с ""турбиной""",negative,-1.0
+транспортер т4,neutral,0.0
+минивэнчик,positive,1.0
+Зафира,positive,1.0
+Зафира,positive,1.0
+семейный автомобиль,positive,1.0
+машин,neutral,0.0
+минивэнов,positive,1.0
+Сузуки Лиану,neutral,0.0
+Сузуки,positive,1.0
+Машинка,positive,1.0
+машинки,positive,1.0
+автомобиля,neutral,0.0
+Daewoo Matiz,neutral,0.0
+Matiz,neutral,0.0
+малолитражкам,neutral,0.0
+автомобиль,neutral,0.0
+автомобиле,positive,1.0
+автомобиль,positive,1.0
+автомобиле Nissan Micra,neutral,0.0
+хэтчбек,neutral,0.0
+Окушку,neutral,0.0
+автомобиль,positive,1.0
+Nissan Micra,negative,-1.0
+резвая,positive,1.0
+машина,neutral,0.0
+советский автопром,negative,-1.0
+автомобили,negative,-1.0
+автомобиле,neutral,0.0
+Дэу Эсперо,neutral,0.0
+машина,positive,1.0
+отечественного автопрома,negative,-1.0
+городской автомобиль,positive,1.0
+автомобиля бмв 523i,neutral,0.0
+автомобиль,positive,1.0
+автомобиле Renault Symbol,neutral,0.0
+Тойоте Хайс,neutral,0.0
+машинка,positive,1.0
+Баргузина,neutral,0.0
+Хайс,positive,1.0
+машиной,neutral,0.0
+Баргузина,neutral,0.0
+Хайс,positive,1.0
+машиной,positive,1.0
+машины,positive,1.0
+Тойоте Хайс,neutral,0.0
+машина,negative,-1.0
+машина,neutral,0.0
+Хайса,negative,-1.0
+ВАЗ 2109,neutral,0.0
+отечественный автомобиль,neutral,0.0
+автомобиль,positive,1.0
+авто,neutral,0.0
+Ваз,neutral,0.0
+Daewoo,neutral,0.0
+BMW,neutral,0.0
+Машина,positive,1.0
+Машинка,positive,1.0
+автомобиля,negative,-1.0
+Mazda,negative,-1.0
+мазду с пробегом,neutral,0.0
+машиной,neutral,0.0
+машины,neutral,0.0
+Хаммере,neutral,0.0
+Автомобиль Мерседес-Бенс 190Е W201 седан,neutral,0.0
+автомобиль Мерседес-Бенс 190Е W201 седан,neutral,0.0
+машинка,neutral,0.0
+машиной,positive,1.0
+машину,negative,-1.0
+машина,negative,-1.0
+машина,negative,-1.0
+автомобиль,positive,1.0
+Мерседес G55 AMG,positive,1.0
+автомобиль,positive,1.0
+Pontiac Vibe,negative,-1.0
+отечественное зубило,negative,-1.0
+"""девяносто девятой""",neutral,0.0
+Pontiac Vibe,neutral,0.0
+авто,neutral,0.0
+авто,neutral,0.0
+советском авто ВАЗ 2103,neutral,0.0
+машинки,neutral,0.0
+троечка,positive,1.0
+авто,positive,1.0
+авто,negative,-1.0
+авто эконом класса,positive,1.0
+машинка,positive,1.0
+машинка,positive,1.0
+агрегат,neutral,0.0
+автомобилем,neutral,0.0
+Hyundai Getz,neutral,0.0
+женская машина,positive,1.0
+авто,neutral,0.0
+отечественными авто,neutral,0.0
+авто,neutral,0.0
+авто,positive,1.0
+машинка,positive,1.0
+РАВ4 предыдущего поколения,neutral,0.0
+автомобиль,neutral,0.0
+"""рафик""",neutral,0.0
+автомобиль,neutral,0.0
+иномаркой,neutral,0.0
+автомобиль,neutral,0.0
+автомобиль,neutral,0.0
+10 модели жигули,neutral,0.0
+авто,positive,1.0
+семейного автомобиля,positive,1.0
+Автомобиль,positive,1.0
+"""фарш""-авто",positive,1.0
+автомобиль,neutral,0.0
+шаха,neutral,0.0
+машину,positive,1.0
+машина,negative,-1.0
+аппарате,negative,-1.0
+Автомобиль,negative,-1.0
+машину б/у,negative,-1.0
+немецкую иномарочку,positive,1.0
+"""тазик""",negative,-1.0
+"""Жиганка""",negative,-1.0
+Автомобиль,positive,1.0
+автомобиль,positive,1.0
+маздой 3,neutral,0.0
+форд фокусом,neutral,0.0
+хондой цивик,neutral,0.0
+Хонда,positive,1.0
+маздой,negative,-1.0
+фордом,negative,-1.0
+машина,positive,1.0
+машина,positive,1.0
+авто,neutral,0.0
+автомобиля,positive,1.0
+Renault Symbol,neutral,0.0
+машине,neutral,0.0
+машине,neutral,0.0
+отечественным автопромом,negative,-1.0
+машина,positive,1.0
+машины,negative,-1.0
+Машина,positive,1.0
+автомобиль,positive,1.0
+Автомобиль,negative,-1.0
+иномарками,neutral,0.0
+машина,positive,1.0
+машинку,neutral,0.0
+автомобиль,positive,1.0
+семейным автомобилем,positive,1.0
+машину лада гранта,neutral,0.0
+машину,positive,1.0
+автомобиль,positive,1.0
+Автомобиль Mercedes Benz Vito 2.2 dti минивен,neutral,0.0
+Машина,positive,1.0
+машина,positive,1.0
+Mercedes,positive,1.0
+автомобиль,positive,1.0
+автомобиль рено логан седан,positive,1.0
+рено логан седан,positive,1.0
+автомобиль,positive,1.0
+Автомобиль ВАЗ 2109,positive,1.0
+ласточка,positive,1.0
+машину,neutral,0.0
+Автомобиль,positive,1.0
+Renault Duster,positive,1.0
+машинка,positive,1.0
+автомобильчик,positive,1.0
+Рено дастер,positive,1.0
+Автомобиль,positive,1.0
+машина,positive,1.0
+логане,positive,1.0
+рено логан,positive,1.0
+спортивных автомобилей,positive,1.0
+Chevrolet Corvette c7,positive,1.0
+автомобилей марки chevrolette,positive,1.0
+модель,positive,1.0
+Ваз21120,neutral,0.0
+отечественного автопрома,neutral,0.0
+рабочая машинка,neutral,0.0
+Ваз 21120,positive,1.0
+машина,positive,1.0
+машина,neutral,0.0
+"""девяткой""",positive,1.0
+Ваз-2109,positive,1.0
+автомобиль,positive,1.0
+Заз сенс,neutral,0.0
+иномаркой,neutral,0.0
+вазовской семёрки,neutral,0.0
+автомобиле,neutral,0.0
+это не машина,negative,-1.0
+машины,negative,-1.0
+модель,negative,-1.0
+семейный автомобиль,positive,1.0
+семейный автомобиль,positive,1.0
+бу,neutral,0.0
+машине,neutral,0.0
+машине,negative,-1.0
+семерку,neutral,0.0
+шестерка,neutral,0.0
+рабочей лошадки,neutral,0.0
+автомобиль,positive,1.0
+модели,negative,-1.0
+авто,neutral,0.0
+чермет на колесах,negative,-1.0
+Автомобиль Газ 2412,neutral,0.0
+24-я Волга,neutral,0.0
+Автомобиль,neutral,0.0
+24-й Волги,negative,-1.0
+машин,neutral,0.0
+рабочая лошадка,neutral,0.0
+авто,negative,-1.0
+авто,negative,-1.0
+авто,negative,-1.0
+автомобиль,positive,1.0
+мерседес,positive,1.0
+автомобиль,positive,1.0
+ходовая машина,positive,1.0
+автомобиль,positive,1.0
+автомобиль,positive,1.0
+внедорожники,positive,1.0
+машине,positive,1.0
+внедорожник,positive,1.0
+большие машины,neutral,0.0
+Hammer,neutral,0.0
+автомобиль,positive,1.0
+автомобиль ВАЗ-21150,negative,-1.0
+"""пятнашка""",negative,-1.0
+автомобиль,positive,1.0
+Автомомобиль,negative,-1.0
+авто,negative,-1.0
+Cupe Lada Priora Coupe,positive,1.0
+продукции АвтоВАЗа,neutral,0.0
+купе Lada Priora,neutral,0.0
+спортивному автомобилю,neutral,0.0
+авто,neutral,0.0
+Автомобиль Nissan Patrol Y62,positive,1.0
+внедорожник,positive,1.0
+авто,positive,1.0
+Nissan Patrol Y62,positive,1.0
+"""девятки""",neutral,0.0
+Лансер,positive,1.0
+машина,positive,1.0
+ВАЗ-2109,positive,1.0
+моделей русского производства,positive,1.0
+Автомобиль,positive,1.0
+"""Девятка""",positive,1.0
+машину,neutral,0.0
+модели,neutral,0.0
+вариант,positive,1.0
+автомобиль,neutral,0.0
+focus 3 хэтчбек,positive,1.0
+Автомобиль,positive,1.0
+opel,neutral,0.0
+маркой автомобиля,neutral,0.0
+машина,positive,1.0
+в хорошем состоянии,positive,1.0
+немец,positive,1.0
+автомобиль,positive,1.0
+опеля вектра А,neutral,0.0
+Машинка,neutral,0.0
+Машинка,positive,1.0
+моделей,neutral,0.0
+модель вектра С,positive,1.0
+машина,neutral,0.0
+серии машин,neutral,0.0
+машину,neutral,0.0
+автомобиле,positive,1.0
+Калину хэтчбек,neutral,0.0
+Калинкой,negative,-1.0
+Рено Сандеро,positive,1.0
+автомобиль ауди А6 универсал,neutral,0.0
+авто,positive,1.0
+автомобль данной модели,neutral,0.0
+ВАЗ 2114,neutral,0.0
+автомобиль,neutral,0.0
+ВАЗ 2114,neutral,0.0
+автомобиль,positive,1.0
+автомобилю,negative,-1.0
+Матиз,neutral,0.0
+автомобиль,neutral,0.0
+автомобиля,neutral,0.0
+машинку,positive,1.0
+матиз,positive,1.0
+машина,positive,1.0
+матиз,neutral,0.0
+малолитражный городской автомобиль,neutral,0.0
+автомобиля,positive,1.0
+матиз,positive,1.0
+машина,positive,1.0
+Машина,positive,1.0
+седан,neutral,0.0
+машина,positive,1.0
+машина,positive,1.0
+Uaz Hunter,neutral,0.0
+автомобиль,neutral,0.0
+УАЗ,positive,1.0
+УАЗом,positive,1.0
+автомобиль,positive,1.0
+УАЗ Hunter,positive,1.0
+авто,positive,1.0
+авто,neutral,0.0
+авто,negative,-1.0
+автомобиль,neutral,0.0
+отечественные авто,neutral,0.0
+иномарки,neutral,0.0
+Мазда 6,neutral,0.0
+Тойота Карина,positive,1.0
+тойота,positive,1.0
+машиной,positive,1.0
+машина,negative,-1.0
+русская классика,neutral,0.0
+автомобиль Kia Optima,neutral,0.0
+машина,positive,1.0
+машины,neutral,0.0
+машина,positive,1.0
+внедорожник,positive,1.0
+машину,positive,1.0
+машина,positive,1.0
+машинку,neutral,0.0
+марке машины,positive,1.0
+иномарки,neutral,0.0
+2109,neutral,0.0
+21099,neutral,0.0
+машине,positive,1.0
+машины,positive,1.0
+Авто,positive,1.0
+машине,positive,1.0
+Toyota land cruiser prado,positive,1.0
+машину,neutral,0.0
+прадо,positive,1.0
+Автомобиль,positive,1.0
+автомобиль,positive,1.0
+Опель Зафира,neutral,0.0
+автомобиль,positive,1.0
+автомобиля,neutral,0.0
+автомобиль,neutral,0.0
+машина,positive,1.0
+автомобиль,neutral,0.0
+представительского класса,neutral,0.0
+иномарки,neutral,0.0
+Сафранчик,positive,1.0
+машинка,positive,1.0
+машину,neutral,0.0
+машине,negative,-1.0
+машина,neutral,0.0
+машина,positive,1.0
+машина,positive,1.0
+автомобиль,positive,1.0
+легковых седанов,positive,1.0
+автомобиль,negative,-1.0
+Спектру,neutral,0.0
+Киа Каренс,neutral,0.0
+автомобиль,neutral,0.0
+автомобиле,negative,-1.0
+чудо-машины,negative,-1.0
+запоре советского производства,negative,-1.0
+автомобиль,positive,1.0
+грузовик,neutral,0.0
+дом на колесах,positive,1.0
+транспорт,neutral,0.0
+автомобиль,positive,1.0
+автомобиль-ВАЗ 2106 шестерка,neutral,0.0
+машина,positive,1.0
+Хонду,positive,1.0
+машине,neutral,0.0
+машина,neutral,0.0
+машиной,neutral,0.0
+Автомобиль,positive,1.0
+автомобиль,positive,1.0
+автомобиль,positive,1.0
+Passat универсал,positive,1.0
+семиместную машину,neutral,0.0
+машина,positive,1.0
+автомобиль,positive,1.0
+опель,neutral,0.0
+машина,neutral,0.0
+автомобиль,neutral,0.0
+автомобиль,neutral,0.0
+галантом,neutral,0.0
+Машинка,positive,1.0
+авто,positive,1.0
+автомобиль,positive,1.0
+автомобиль,positive,1.0
+машину,neutral,0.0
+автомобиль,neutral,0.0
+большегрузным автомобилем,neutral,0.0
+карытом,negative,-1.0
+вазавский переднеприводны авто,negative,-1.0
+девятку,negative,-1.0
+автомобиль,negative,-1.0
+классику,neutral,0.0
+автомобилем ВАЗ 2114,neutral,0.0
+авто,positive,1.0
+автомобильчик,neutral,0.0
+авто,neutral,0.0
+Автомобиль KIA Venga,neutral,0.0
+автомобиля,positive,1.0
+Машинка,neutral,0.0
+авто,neutral,0.0
+отечественным автопромом,positive,1.0
+Вольво,neutral,0.0
+машинка,positive,1.0
+ГАЗ 3102,positive,1.0
+авто,negative,-1.0
+машинка,negative,-1.0
+модель,neutral,0.0
+машину,neutral,0.0
+машине,positive,1.0
+внутренняя оболочка,positive,1.0
+машину,positive,1.0
+авто,neutral,0.0
+двигатель,neutral,0.0
+автомобиль,positive,1.0
+Nissan Note,neutral,0.0
+комплектация,neutral,0.0
+машина,positive,1.0
+Автомобиль Ford Focus 3,neutral,0.0
+машина,neutral,0.0
+фокусом,negative,-1.0
+рено дастер,neutral,0.0
+автомобиль,negative,-1.0
+авто,negative,-1.0
+Машина,positive,1.0
+аппарат,positive,1.0
+Машина,positive,1.0
+вариант,positive,1.0
+выбор,positive,1.0
+Автомобиль,neutral,0.0
+Российский автопром,negative,-1.0
+автомобили,neutral,0.0
+Caddy,neutral,0.0
+Машина,neutral,0.0
+комплектация,neutral,0.0
+автомобиля,positive,1.0
+машина,positive,1.0
+автомобиль ВАЗ 2109,neutral,0.0
+«девятка»,neutral,0.0
+модель,positive,1.0
+рабочая лошадка,positive,1.0
+машина,positive,1.0
+Автомобиль,neutral,0.0
+машина,positive,1.0
+автомобильл,positive,1.0
+машина,neutral,0.0
+Машина ц класса,neutral,0.0
+машин,neutral,0.0
+машина,neutral,0.0
+седан,neutral,0.0
+Авто,neutral,0.0
+машина,neutral,0.0
+впечатление,positive,1.0
+автомобиль,positive,1.0
+Машина,positive,1.0
+машины фирмы тойота,neutral,0.0
+рабочая лошадка,positive,1.0
+машиной,neutral,0.0
+Машина,positive,1.0
+автомобиль,positive,1.0
+современные авто,positive,1.0
+BMW,neutral,0.0
+e39,positive,1.0
+марка,positive,1.0
+машина,positive,1.0
+Машина,positive,1.0
+автомобиле,neutral,0.0
+BMW,positive,1.0
+автомобиле,positive,1.0
+Пассат в3 универсал,neutral,0.0
+машине,neutral,0.0
+продать было бы невозможно,negative,-1.0
+автомобиль,neutral,0.0
+машину,positive,1.0
+автомобиле,neutral,0.0
+ВАЗ 21074,neutral,0.0
+машина,neutral,0.0
+аскетичности,negative,-1.0
+машинка,positive,1.0
+автомобиль,positive,1.0
+машинку,neutral,0.0
+майбах,neutral,0.0
+жигуль,positive,1.0
+машиной,negative,-1.0
+машиной,positive,1.0
+альтернативы,neutral,0.0
+автомобиль,positive,1.0
+Ford Focus 2 хэтчбек,neutral,0.0
+автомобилем,positive,1.0
+автомобиль,positive,1.0
+автомобиле Дэу-Матис,neutral,0.0
+иномарку,negative,-1.0
+машине,neutral,0.0
+машина,positive,1.0
+машина,positive,1.0
+Peugeot 308,positive,1.0
+машина,positive,1.0
+отечественной Лада 2114,negative,-1.0
+машина,negative,-1.0
+внедорожник,neutral,0.0
+автомобиль,neutral,0.0
+вариант,positive,1.0
+вариант,positive,1.0
+Авто,neutral,0.0
+авто,positive,1.0
+аппарат,positive,1.0
+машину,negative,-1.0
+машина,negative,-1.0
+Российская классика,positive,1.0
+машина,positive,1.0
+ВАЗ,positive,1.0
+автомобиль,negative,-1.0
+машину,neutral,0.0
+ВАЗ,positive,1.0
+машина,negative,-1.0
+машина такого класса,positive,1.0
+солярис,neutral,0.0
+сборка русская,negative,-1.0
+автомобиль,neutral,0.0
+авто,neutral,0.0
+марке Chery,neutral,0.0
+Автомобиль Chery QQ6 1.1,neutral,0.0
+Автомобиль Chery QQ6 1.1,neutral,0.0
+Автомобиль Chery QQ6 1.1,negative,-1.0
+машиной,positive,1.0
+машину,positive,1.0
+машина,positive,1.0
+Машина,positive,1.0
+машине,positive,1.0
+мазду 3,neutral,0.0
+автомобиль,neutral,0.0
+автомобиле Nissan Almera,neutral,0.0
+автомобиле,neutral,0.0
+Ниссан,neutral,0.0
+автомобиль,negative,-1.0
+автомобиль,positive,1.0
+Хендай Солярис,negative,-1.0
+Кио Рио,neutral,0.0
+автомобиль,positive,1.0
+Солярис,negative,-1.0
+Киа Рио,negative,-1.0
+машины,neutral,0.0
+Mercedes C300 W204,neutral,0.0
+автомобиль,neutral,0.0
+автомобиля,positive,1.0
+3 серии БМВ,neutral,0.0
+Ауди А4,neutral,0.0
+машины,neutral,0.0
+автомобиле,neutral,0.0
+универсалу,neutral,0.0
+автомобиль,neutral,0.0
+вариант,positive,1.0
+Машина,positive,1.0
+ВАЗа,neutral,0.0
+Opel Insigna 1.8,positive,1.0
+хэтчбэк,positive,1.0
+"ВАЗ 217030 ""PRIORA"" седан",neutral,0.0
+"комплектация ""люкс""",neutral,0.0
+машинка,positive,1.0
+"""калины""",negative,-1.0
+"""приоры""",negative,-1.0
+автомобиля,positive,1.0
+машина,neutral,0.0
+Ваз 2112,neutral,0.0
+машина,neutral,0.0
+ВАЗ,negative,-1.0
+автомобиль,positive,1.0
+Автомобиль,positive,1.0
+автомобиль,positive,1.0
+автомобиль,positive,1.0
+машины,neutral,0.0
+Infiniti fx35,neutral,0.0
+Polo,neutral,0.0
+авто,neutral,0.0
+в идеальном состоянии,positive,1.0
+Машина,positive,1.0
+автомобиль,neutral,0.0
+машиной,neutral,0.0
+машина,neutral,0.0
+авто люкс-класса,positive,1.0
+Geely Emgrand,positive,1.0
+машинка,positive,1.0
+авто,neutral,0.0
+машинка,positive,1.0
+автомобиль,positive,1.0
+Автомобиль,neutral,0.0
+авто,negative,-1.0
+авто,positive,1.0
+экземпляр,negative,-1.0
+авто данной модели,negative,-1.0
+авто,positive,1.0
+авто,positive,1.0
+авто,negative,-1.0
+Продать данный авто,negative,-1.0
+авто,neutral,0.0
+Авто,neutral,0.0
+Авто,positive,1.0
+Авто,positive,1.0
+машинка,positive,1.0
+автомобиль,positive,1.0
+машина,positive,1.0
+микроавтобус,positive,1.0
+автомобиль,positive,1.0
+авто,positive,1.0
+автомобиль,neutral,0.0
+автомобиль,positive,1.0
+автомобилем,positive,1.0
+маркой,positive,1.0
+вариант,positive,1.0
+Ауди 80 Б2,neutral,0.0
+автомобиле,neutral,0.0
+авто,positive,1.0
+девятки,neutral,0.0
+Фольксваген Пассат Б2,neutral,0.0
+Гольф 2,neutral,0.0
+машинка,positive,1.0
+автомобиль,positive,1.0
+Машина,neutral,0.0
+ладой двенадцатой модели,negative,-1.0
+машину,negative,-1.0
+машину,positive,1.0
+Sens,positive,1.0
+машина,positive,1.0
+Машина,positive,1.0
+машина,positive,1.0
+машинку,neutral,0.0
+машина,positive,1.0
+машины,positive,1.0
+автомобиль,positive,1.0
+автомобиля,positive,1.0
+автомобиль,positive,1.0
+Dodge Caravan,neutral,0.0
+машина,positive,1.0
+машина,positive,1.0
+автомобиль,positive,1.0
+автомобилями,neutral,0.0
+машина,negative,-1.0
+шевроле,positive,1.0
+Машина,negative,-1.0
+машин,neutral,0.0
+авто,neutral,0.0
+модификация,neutral,0.0
+версия GT,neutral,0.0
+Машина,positive,1.0
+машинка,negative,-1.0
+машиной,positive,1.0
