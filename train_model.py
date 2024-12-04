@@ -116,11 +116,13 @@ def train_and_save_models(csv_path, model_outputs):
 
 def hybrid_predict_all(model_paths, text):
 
-    print(f"\nАнализ текста: {text}\n")
+    rule_based_result = classify_by_rules(text, emotion_dict)
+    if rule_based_result:
+        print("Результат классификации по правилам:", rule_based_result)
+        return
     for model_name, model_path in model_paths.items():
         with open(model_path, "rb") as f:
             model, vectorizer = pickle.load(f)
-
         result = hybrid_classification(text, model, vectorizer, emotion_dict)
         print(f"Модель: {model_name}")
         print(f"Эмоциональная окраска: {result}\n")
