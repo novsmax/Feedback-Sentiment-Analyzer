@@ -7,8 +7,11 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 import pickle
+import spacy_udpipe
 
+nlp = spacy_udpipe.load("ru")
 
+# Расширенный словарь с эмоциональными словами
 emotion_dict = {
     "positive": [
         "отличный", "прекрасный", "удобный", "лучший", "супер", "великолепный", "замечательный", "классный", "восторг",
@@ -30,16 +33,25 @@ emotion_dict = {
 
 
 def classify_by_rules(text, emotion_dict):
-    text = text.lower()
+    # Лемматизируем текст с помощью spaCy
+    doc = nlp(text.lower())  # Приводим текст к нижнему регистру
+    lemmatized_text = [token.lemma_ for token in doc]  # Лемматизация слов в тексте
+
     matches = {
         "positive": 0,
         "negative": 0,
         "neutral": 0
     }
 
+    # Проверка наличия хотя бы нескольких лемм из каждой категории
     for sentiment, words in emotion_dict.items():
-        matches[sentiment] = sum(1 for word in words if word in text)
+        # Лемматизируем слова из словаря эмоций
+        lemmatized_words = set([nlp(word)[0].lemma_ for word in words])
 
+        # Считаем совпадения лемм
+        matches[sentiment] = sum(1 for word in lemmatized_text if word in lemmatized_words)
+
+    # Возвращаем категорию с наибольшим количеством совпадений
     if matches["positive"] > 0 and (
             matches["positive"] >= matches["negative"] or matches["positive"] > matches["neutral"]):
         return "positive"
@@ -56,6 +68,7 @@ def hybrid_classification(text, model, vectorizer, emotion_dict):
 
     rule_based_result = classify_by_rules(text, emotion_dict)
     if rule_based_result:
+        print("Результат классификации по правилам:", rule_based_result)
         return rule_based_result
 
     text_vec = vectorizer.transform([text])
@@ -89,11 +102,11 @@ def train_and_save_models(csv_path, model_outputs):
     }
 
     for model_name, model in models.items():
-        print(f"\n--- Обучение модели: {model_name} ---")
+        # print(f"\n--- Обучение модели: {model_name} ---")
         model.fit(X_train_vec, y_train)
         y_pred = model.predict(X_test_vec)
-        print(f"Метрики для модели {model_name}:")
-        print(classification_report(y_test, y_pred))
+        # print(f"Метрики для модели {model_name}:")
+        # print(classification_report(y_test, y_pred))
 
         model_path = model_outputs.get(model_name)
         if model_path:
