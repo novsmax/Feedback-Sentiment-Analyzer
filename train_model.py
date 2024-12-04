@@ -2,87 +2,130 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
 from sklearn.metrics import classification_report
+import pickle
 
-def train_and_evaluate(csv_path, model_output=None):
-    """
-    Обучает модель для анализа тональности и оценивает её.
 
-    Args:
-        csv_path (str): Путь к CSV-файлу с данными.
-        model_output (str): Путь для сохранения обученной модели (опционально).
-    """
-    # Загружаем данные
+emotion_dict = {
+    "positive": [
+        "отличный", "прекрасный", "удобный", "лучший", "супер", "великолепный", "замечательный", "классный", "восторг",
+        "позитивный",
+        "радостный", "вдохновляющий", "удивительный", "чудесный", "отлично", "хороший", "потрясающий", "фантастический"
+    ],
+    "negative": [
+        "ужасный", "плохой", "разочарован", "не рекомендую", "проблемы", "не советую", "ужас", "отвратительный",
+        "кошмар",
+        "катастрофа", "неудачный", "несчастный", "грустный", "неприятный", "мучительный", "провал", "страшный",
+        "неудача"
+    ],
+    "neutral": [
+        "нормальный", "обычный", "средний", "стандартный", "нейтральный", "проходной", "так себе", "неплохой",
+        "простой", "обыденный",
+        "среднестатистический", "невыразительный", "посредственный", "безразличный", "функциональный"
+    ]
+}
+
+
+def classify_by_rules(text, emotion_dict):
+    text = text.lower()
+    matches = {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+    }
+
+    for sentiment, words in emotion_dict.items():
+        matches[sentiment] = sum(1 for word in words if word in text)
+
+    if matches["positive"] > 0 and (
+            matches["positive"] >= matches["negative"] or matches["positive"] > matches["neutral"]):
+        return "positive"
+    elif matches["negative"] > 0 and (
+            matches["negative"] >= matches["positive"] or matches["negative"] > matches["neutral"]):
+        return "negative"
+    elif matches["neutral"] > 0:
+        return "neutral"
+
+    return None
+
+
+def hybrid_classification(text, model, vectorizer, emotion_dict):
+
+    rule_based_result = classify_by_rules(text, emotion_dict)
+    if rule_based_result:
+        return rule_based_result
+
+    text_vec = vectorizer.transform([text])
+    prediction = model.predict(text_vec)[0]
+
+    sentiment_mapping = {
+        1: "positive",
+        0: "neutral",
+        -1: "negative"
+    }
+    return sentiment_mapping[prediction]
+
+def train_and_save_models(csv_path, model_outputs):
     df = pd.read_csv(csv_path)
-
-    # Проверяем данные на наличие NaN
     if df["sentiment_label"].isnull().any():
         raise ValueError("В данных есть пропущенные значения в целевой переменной 'sentiment_label'.")
 
-    # Разделяем данные
     X_train, X_test, y_train, y_test = train_test_split(
         df["text"], df["sentiment_label"], test_size=0.2, random_state=42
     )
 
-    # Преобразуем текст в TF-IDF векторы
-    vectorizer = TfidfVectorizer()
+    vectorizer = TfidfVectorizer(ngram_range=(1, 2), stop_words="english")
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
 
-    # Обучаем модель
-    model = LogisticRegression()
-    model.fit(X_train_vec, y_train)
-
-    # Оцениваем модель
-    y_pred = model.predict(X_test_vec)
-    print(classification_report(y_test, y_pred))
-
-    # Сохраняем модель, если указан путь
-    if model_output:
-        import pickle
-        with open(model_output, "wb") as f:
-            pickle.dump((model, vectorizer), f)
-        print(f"Модель успешно сохранена в {model_output}")
-
-def predict_text(model_path):
-    """
-    Предсказывает тональность текста с использованием сохранённой модели.
-
-    Args:
-        model_path (str): Путь к сохранённой модели.
-    """
-    import pickle
-    # Загружаем модель
-    with open(model_path, "rb") as f:
-        model, vectorizer = pickle.load(f)
-
-    # Словарь для преобразования предсказаний в текст
-    sentiment_mapping = {
-        1: "Положительный отзыв",
-        0: "Нейтральный отзыв",
-        -1: "Негативный отзыв"
+    models = {
+        "Логистическая регрессия": LogisticRegression(class_weight="balanced", max_iter=1000),
+        "Наивный Байес": MultinomialNB(),
+        "Дерево решений": DecisionTreeClassifier(),
+        "Метод опорных векторов": SVC(kernel="linear", class_weight="balanced")
     }
 
-    print("\nВведите свои отзывы для проверки (по одному). Чтобы завершить, введите 'exit'.")
-    while True:
-        user_input = input("Введите отзыв: ")
-        if user_input.lower() == "exit":
-            print("Завершение работы.")
-            break
+    for model_name, model in models.items():
+        print(f"\n--- Обучение модели: {model_name} ---")
+        model.fit(X_train_vec, y_train)
+        y_pred = model.predict(X_test_vec)
+        print(f"Метрики для модели {model_name}:")
+        print(classification_report(y_test, y_pred))
 
-        # Преобразуем текст в вектор
-        text_vec = vectorizer.transform([user_input])
-        prediction = model.predict(text_vec)[0]
+        model_path = model_outputs.get(model_name)
+        if model_path:
+            with open(model_path, "wb") as f:
+                pickle.dump((model, vectorizer), f)
+            print(f"Модель {model_name} сохранена в {model_path}")
 
-        # Выводим результат
-        print(f"Результат: {sentiment_mapping[prediction]}\n")
+def hybrid_predict_all(model_paths, text):
+
+    print(f"\nАнализ текста: {text}\n")
+    for model_name, model_path in model_paths.items():
+        with open(model_path, "rb") as f:
+            model, vectorizer = pickle.load(f)
+
+        result = hybrid_classification(text, model, vectorizer, emotion_dict)
+        print(f"Модель: {model_name}")
+        print(f"Эмоциональная окраска: {result}\n")
 
 if __name__ == "__main__":
     csv_path = "data/reviews.csv"
-    model_output = "data/sentiment_model.pkl"
+    model_outputs = {
+        "Логистическая регрессия": "data/logistic_model.pkl",
+        "Наивный Байес": "data/naive_bayes_model.pkl",
+        "Дерево решений": "data/decision_tree_model.pkl",
+        "Метод опорных векторов": "data/svm_model.pkl"
+    }
 
-    # Обучение модели
-    train_and_evaluate(csv_path, model_output)
+    train_and_save_models(csv_path, model_outputs)
 
-    # Предсказания для пользовательских данных
-    predict_text(model_output)
+    print("\nВведите отзывы для анализа (введите 'exit' для завершения):")
+    while True:
+        user_input = input("Отзыв: ")
+        if user_input.lower() == "exit":
+            break
+        hybrid_predict_all(model_outputs, user_input)
